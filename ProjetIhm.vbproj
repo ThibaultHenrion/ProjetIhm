@@ -88,10 +88,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChoixMatières.Designer.vb">
-      <DependentUpon>ChoixMatières.vb</DependentUpon>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
-    <Compile Include="ChoixMatières.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MenuGen.vb">
@@ -125,9 +125,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ChoixMatières.resx">
-      <DependentUpon>ChoixMatières.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Inscription.resx">
       <DependentUpon>Inscription.vb</DependentUpon>
     </EmbeddedResource>
