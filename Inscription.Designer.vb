@@ -23,193 +23,148 @@ Partial Class Inscription
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.AdresseCadidat = New System.Windows.Forms.TextBox()
         Me.PrenomCadidat = New System.Windows.Forms.TextBox()
         Me.NomCadidat = New System.Windows.Forms.TextBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.RegionBox = New System.Windows.Forms.ComboBox()
-        Me.Epreuve1 = New System.Windows.Forms.ComboBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Label8)
+        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.TextBox4)
+        Me.GroupBox1.Controls.Add(Me.TextBox3)
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.AdresseCadidat)
         Me.GroupBox1.Controls.Add(Me.PrenomCadidat)
         Me.GroupBox1.Controls.Add(Me.NomCadidat)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(9, 10)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(776, 134)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
+        Me.GroupBox1.Size = New System.Drawing.Size(582, 181)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Coordonées"
+        Me.GroupBox1.Text = "Coordonnées"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(8, -91)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(91, 20)
+        Me.TextBox1.TabIndex = 7
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(81, 96)
+        Me.Label3.Location = New System.Drawing.Point(27, 92)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 17)
+        Me.Label3.Size = New System.Drawing.Size(45, 13)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Adresse"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(84, 57)
+        Me.Label2.Location = New System.Drawing.Point(29, 60)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(57, 17)
+        Me.Label2.Size = New System.Drawing.Size(43, 13)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Prénom"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(104, 20)
+        Me.Label1.Location = New System.Drawing.Point(44, 30)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(37, 17)
+        Me.Label1.Size = New System.Drawing.Size(29, 13)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Nom"
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(507, 21)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(199, 46)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Ajouter un numéro de telephone"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'AdresseCadidat
         '
-        Me.AdresseCadidat.Location = New System.Drawing.Point(165, 96)
+        Me.AdresseCadidat.Location = New System.Drawing.Point(90, 92)
+        Me.AdresseCadidat.Margin = New System.Windows.Forms.Padding(2)
         Me.AdresseCadidat.Name = "AdresseCadidat"
-        Me.AdresseCadidat.Size = New System.Drawing.Size(239, 22)
+        Me.AdresseCadidat.Size = New System.Drawing.Size(180, 20)
         Me.AdresseCadidat.TabIndex = 2
         '
         'PrenomCadidat
         '
-        Me.PrenomCadidat.Location = New System.Drawing.Point(165, 57)
+        Me.PrenomCadidat.Location = New System.Drawing.Point(90, 60)
+        Me.PrenomCadidat.Margin = New System.Windows.Forms.Padding(2)
         Me.PrenomCadidat.Name = "PrenomCadidat"
-        Me.PrenomCadidat.Size = New System.Drawing.Size(239, 22)
+        Me.PrenomCadidat.Size = New System.Drawing.Size(180, 20)
         Me.PrenomCadidat.TabIndex = 1
         '
         'NomCadidat
         '
-        Me.NomCadidat.Location = New System.Drawing.Point(165, 20)
+        Me.NomCadidat.Location = New System.Drawing.Point(90, 30)
+        Me.NomCadidat.Margin = New System.Windows.Forms.Padding(2)
         Me.NomCadidat.Name = "NomCadidat"
-        Me.NomCadidat.Size = New System.Drawing.Size(239, 22)
+        Me.NomCadidat.Size = New System.Drawing.Size(180, 20)
         Me.NomCadidat.TabIndex = 0
         '
-        'GroupBox2
+        'TextBox3
         '
-        Me.GroupBox2.Controls.Add(Me.Panel1)
-        Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Controls.Add(Me.RegionBox)
-        Me.GroupBox2.Location = New System.Drawing.Point(13, 155)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(774, 414)
-        Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Inscription"
+        Me.TextBox3.Location = New System.Drawing.Point(90, 117)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.TabIndex = 7
         '
-        'Label4
+        'TextBox4
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(18, 39)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(131, 17)
-        Me.Label4.TabIndex = 1
-        Me.Label4.Text = "Région de passage"
+        Me.TextBox4.Location = New System.Drawing.Point(90, 143)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(180, 20)
+        Me.TextBox4.TabIndex = 9
         '
-        'RegionBox
+        'Label7
         '
-        Me.RegionBox.FormattingEnabled = True
-        Me.RegionBox.Location = New System.Drawing.Point(164, 36)
-        Me.RegionBox.Name = "RegionBox"
-        Me.RegionBox.Size = New System.Drawing.Size(239, 24)
-        Me.RegionBox.TabIndex = 0
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(9, 124)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(63, 13)
+        Me.Label7.TabIndex = 10
+        Me.Label7.Text = "Code postal"
         '
-        'Epreuve1
+        'Label8
         '
-        Me.Epreuve1.FormattingEnabled = True
-        Me.Epreuve1.Location = New System.Drawing.Point(154, 10)
-        Me.Epreuve1.Name = "Epreuve1"
-        Me.Epreuve1.Size = New System.Drawing.Size(236, 24)
-        Me.Epreuve1.TabIndex = 2
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(13, 14)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(73, 17)
-        Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Epreuve 1"
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.RadioButton2)
-        Me.Panel1.Controls.Add(Me.RadioButton1)
-        Me.Panel1.Controls.Add(Me.Label5)
-        Me.Panel1.Controls.Add(Me.Epreuve1)
-        Me.Panel1.Location = New System.Drawing.Point(6, 76)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(762, 45)
-        Me.Panel1.TabIndex = 4
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Checked = True
-        Me.RadioButton1.Location = New System.Drawing.Point(479, 13)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(57, 21)
-        Me.RadioButton1.TabIndex = 4
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Ecrit"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(564, 13)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(56, 21)
-        Me.RadioButton2.TabIndex = 5
-        Me.RadioButton2.Text = "Oral"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(47, 150)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(26, 13)
+        Me.Label8.TabIndex = 11
+        Me.Label8.Text = "Ville"
         '
         'Inscription
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 581)
-        Me.Controls.Add(Me.GroupBox2)
+        Me.ClientSize = New System.Drawing.Size(600, 472)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Inscription"
         Me.Text = "Form2"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -218,16 +173,12 @@ Partial Class Inscription
     Friend WithEvents AdresseCadidat As TextBox
     Friend WithEvents PrenomCadidat As TextBox
     Friend WithEvents NomCadidat As TextBox
-    Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents Label4 As Label
-    Friend WithEvents RegionBox As ComboBox
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Epreuve1 As ComboBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label8 As Label
 End Class
