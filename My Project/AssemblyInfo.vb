@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Vérifiez les valeurs des attributs de l'assembly
 
-<Assembly: AssemblyTitle("ProjetIhm")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("ProjetIhm")>
+<Assembly: AssemblyTitle("Parcoursdev")>
+<Assembly: AssemblyDescription("Inscriptions à un concours national")>
+<Assembly: AssemblyCompany("Després-Henrion Soft")>
+<Assembly: AssemblyProduct("Parcoursdev")>
 <Assembly: AssemblyCopyright("Copyright ©  2020")>
-<Assembly: AssemblyTrademark("")>
+<Assembly: AssemblyTrademark("Parcoursdev")>
 
 <Assembly: ComVisible(False)>
 
